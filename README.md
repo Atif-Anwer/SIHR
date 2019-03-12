@@ -1,23 +1,8 @@
 ## About
 
-An ongoing effort of developing new and implementing established single image highlight removal (SIHR) methods on MATLAB.
+Specular highlight removal methods in MATLAB.
 
-I welcome and encourage additions upon review.
-
-*Disclaimer: this repository is for educational purposes only.*
-
-## Usage
-
-Run `SIHR.m` for path setup.
-
-Run `help SIHR` for documentation.
-
-The environment this repository is being developed is:
-
-- MATLAB R2018b;
-- [Image Processing Toolbox](https://www.mathworks.com/products/image.html).
-
-The repository is structured as follows:
+Forked from vitorsr/SIHR
 
     SIHR\
       ↳ img\
@@ -41,9 +26,7 @@ The repository is structured as follows:
       ↳ Yamamoto2017\
           ↳ Implementation of improvements in [14];
       ↳ Ramos2019\
-          ↳ Personal folder.
-
-Feel free to create either an issue or a PR or contact me for any questions, comments, or improvements.
+          ↳ Work from Vítor Ramos (Original Repo).
 
 Below are listed major references and recognized works that I plan on studying.
 
