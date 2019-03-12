@@ -6,7 +6,7 @@ imDbl = im2double(imInt);
 %%
 clearvars -except imDbl
 mask = Mask.GrowHighlights(imDbl);
-mask = boolean(max(mask,[],3));
+mask = logical(max(mask,[],3));
 stats = regionprops('table',mask,'Centroid','MajorAxisLength');
 diameters = stats.MajorAxisLength;
 pad = ceil(max(diameters));
