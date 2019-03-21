@@ -4,31 +4,26 @@ Specular highlight removal methods in MATLAB.
 
 Forked from vitorsr/SIHR
 
-    SIHR\
+## Codes and implementations
+
+| Author     	| Year 	| Working Code  	| Paper / Source                                                   	|
+|------------	|------	|---------------	|------------------------------------------------------------------	|
+| Tan Ikuchi 	| 2005 	| Partial       	| Implementation of Tan's zHighlightRemoval class [3]              	|
+|            	|      	|               	| http://tanrobby.github.io/code/highlight.zip                     	|
+| Yoon       	| 2006 	| Yes           	| Implementation of Yoon's 2006 method [4]                         	|
+| Shen       	| 2009 	| Yes           	| Code for [5]                                                     	|
+|            	|      	|               	| http://ivlab.org/publications/PR2008_code.zip                    	|
+| Yang       	| 2010 	| Partial       	| Implementation of Yang's qx_highlight_removal_bf method [7].     	|
+|            	|      	|               	| http://www.cs.cityu.edu.hk/~qiyang/publications/code/eccv-10.zip 	|
+| Akashi     	| 2016 	| Yes           	| Direct implementation of [13]                                    	|
+| Yamamoto   	| 2017 	| Yes           	| Implementation of improvements in [14]                           	|
+| Ramos2019  	| 2019 	| Yes / Partial 	| Work from Vítor Ramos (vitorsr/SIHR).                            	|
+
+## Test Images
+    Specular-Highlight-Mitigation-Removal\
       ↳ img\
           ↳ Test images;
-      ↳ Tan2005\
-          ↳ Implementation of Tan's zHighlightRemoval class [3].
-            Available at (C++):
-            http://tanrobby.github.io/code/highlight.zip;
-      ↳ Yoon2006\
-          ↳ Implementation of Yoon's 2006 method [4];
-      ↳ Shen2008\
-          ↳ Code for [5].
-            Also available at (MATLAB):
-            http://ivlab.org/publications/PR2008_code.zip;
-      ↳ Yang2010\
-          ↳ Implementation of Yang's qx_highlight_removal_bf method [7].
-            Formerly available at (C++):
-            http://www.cs.cityu.edu.hk/~qiyang/publications/code/eccv-10.zip;
-      ↳ Akashi2015\
-          ↳ Direct implementation of [13];
-      ↳ Yamamoto2017\
-          ↳ Implementation of improvements in [14];
-      ↳ Ramos2019\
-          ↳ Work from Vítor Ramos (Original Repo).
 
-Below are listed major references and recognized works that I plan on studying.
 
 ## References
 

@@ -1,5 +1,5 @@
 %% Import image to workspace
-I = im2double(imread('synth.ppm'));
+I = im2double(imread('fruit.bmp'));
 % figure(1), imshow(I)
 %% Create specular-free two-band image
 Isf = I - min(I,[],3);

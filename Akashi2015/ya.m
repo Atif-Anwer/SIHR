@@ -1,4 +1,4 @@
-V = double(imread('synth.ppm'));
+V = double(imread('mouse_cup.jpg'));
 [nRow,nCol,nCh] = size(V);
 M = 3; % = number of color channels
 N = nRow*nCol; % = number of pixels
